@@ -87,6 +87,7 @@ const weather = async () => {
   } catch (error) {
     console.error(error);
   }
+  input.value = "";
 };
 
 const search = document.querySelector("button");
